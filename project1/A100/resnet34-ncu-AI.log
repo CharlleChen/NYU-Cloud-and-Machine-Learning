@@ -1,0 +1,7 @@
+dram__sectors_write.sum 204107184
+dram__bytes_write.sum.per_second 45390
+dram__sectors_read.sum 404741484
+dram__bytes_read.sum.per_second 267879
+smsp__sass_thread_inst_executed_op_fadd_pred_on.sum 18617082831
+smsp__sass_thread_inst_executed_op_fmul_pred_on.sum 5172835920
+smsp__sass_thread_inst_executed_op_ffma_pred_on.sum 226124197117

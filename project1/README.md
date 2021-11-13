@@ -1,0 +1,4 @@
+# Project 1: Roofline model
+Performance is a crucial topic in chip industry. From the designer's point of view, aside from the clock frequency, there are many critical factors to consider to boost the actual performance. From the application level, programmers care about the performance because the utilization of CPU/GPU largely determine the development efficiency and cost. This report introduces a graphic representation tool  -- roofline model -- for programmers to understand the performance of their programs and goes through an experiment to see how the roofline model illustrates the performance on different GPU and convolutional nerual networks.
+
+## 

@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: train
+spec:
+  template:
+    spec:
+      containers:
+      - name: train
+        #imagePullPolicy: Never
+        image: charllechen/train
+        command: ["python3", "train.py"]
+        volumeMounts:
+        - name: my-volume
+          mountPath: /mnt
+      restartPolicy: Never
+      volumes:
+        - name: my-volume
+          persistentVolumeClaim:
+            claimName: my-pvc
